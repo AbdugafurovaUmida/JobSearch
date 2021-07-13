@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,500&family=Roboto&display=swap');
+
+body{
+    font-family: 'Poppins',sans-serif;
+    font-weight: normal;
+}
+.active,.text-dark,.card-title,.activate,.feature-title,.design-title,.apply{
+    font-weight: 600;
+}
+.card-text,.form-control{
+    font-family: 'Roboto',sans-serif;
+    font-weight: normal;
+}
+.design-text{
+    font-family: 'Roboto',sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #696974;
+}
+.active{
+    position: relative;
+    color: #0062FF;
+}
+.active::before{
+    content: '';
+    width: 105px ;
+    height: 3px;
+    background-color: #0062FF;
+    position: absolute;
+    bottom: -11px;
+    left: 15px;
+}
+
+
